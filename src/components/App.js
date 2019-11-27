@@ -11,7 +11,7 @@ class App extends React.Component {
     onSearchSubmit = async (term) => {
           const response = await unsplash.get('/search/photos',{
             params: {
-                client_id:'1946fff78fb326ceea79c635d3bec36c51ea899e95e2ebe98199246f1467032a',
+                client_id:'',
                 query: term
             }
         });
